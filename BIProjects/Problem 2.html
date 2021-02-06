@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Problem 2</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            padding: auto;
+        }
+        
+        table {
+            border-spacing: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2><b>An ordered list</b></h2>
+    <table style="width: fit-content;">
+        <tr>
+            <th>Ordered List - Type 1</th>
+            <th>Ordered List - Type 2</th>
+            <th>Ordered List - Type 3</th>
+            <th>Ordered List - Type 4</th>
+            <th>Ordered List - Type 5</th>
+            <th>Ordered List - Different start</th>
+        </tr>
+        <tr>
+            <td>
+                <ol>
+                    <li>Apple</li>
+                    <li>Mangoes</li>
+                    <li>Oranges</li>
+                    <li>Pears</li>
+                </ol>
+            </td>
+
+            <td>
+                <ol type="I">
+                    <li>Apple</li>
+                    <li>Mangoes</li>
+                    <li>Oranges</li>
+                    <li>Pears</li>
+                </ol>
+            </td>
+
+            <td>
+                <ol type="i">
+                    <li>Apple</li>
+                    <li>Mangoes</li>
+                    <li>Oranges</li>
+                    <li>Pears</li>
+                </ol>
+            </td>
+
+            <td>
+                <ol type="A">
+                    <li>Apple</li>
+                    <li>Mangoes</li>
+                    <li>Oranges</li>
+                    <li>Pears</li>
+                </ol>
+            </td>
+
+            <td>
+                <ol type="a">
+                    <li>Apple</li>
+                    <li>Mangoes</li>
+                    <li>Oranges</li>
+                    <li>Pears</li>
+                </ol>
+            </td>
+
+            <td>
+                <ol type="i" start="4">
+                    <li>Apple</li>
+                    <li>Mangoes</li>
+                    <li>Oranges</li>
+                    <li>Pears</li>
+                </ol>
+            </td>
+
+        </tr>
+    </table>
+
+    <h2><b>A Description List</b></h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>- This stands for Hyper Text Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>- This stands for Cascading Style Sheets</dd>
+    </dl>
+
+    <h2><b>An unordered list</b></h2>
+    <table>
+        <tr>
+            <th>Unordered List - Type 1</th>
+            <th>Unordered List - Type 2</th>
+            <th>Unordered List - Type 3</th>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>Spinach</li>
+                    <li>Tomato</li>
+                    <li>Potato</li>
+                    <li>Ginger</li>
+                </ul>
+            </td>
+
+            <td>
+                <ul style="list-style-type: square;">
+                    <li>Spinach</li>
+                    <li>Tomato</li>
+                    <li>Potato</li>
+                    <li>Ginger</li>
+                </ul>
+            </td>
+
+            <td>
+                <ul style="list-style-type: circle;">
+                    <li>Spinach</li>
+                    <li>Tomato</li>
+                    <li>Potato</li>
+                    <li>Ginger</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+    <h2><b>Media elements</b></h2>
+    <table style="width: fit-content;">
+        <tr>
+            <th>Image</th>
+            <th>Progressbar</th>
+        </tr>
+        <tr>
+            <td>
+                <img src="./nature.jpg" style="width: 100px; height: 80px;">
+            </td>
+            <td>
+                <progress value="30" max="100"></progress>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
